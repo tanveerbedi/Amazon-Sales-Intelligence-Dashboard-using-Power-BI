@@ -1,73 +1,111 @@
-# Power-Bi_Amazon-Dashboard
-<p align="center">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg" alt="Amazon Logo" width="300"/>
-</p>
-Amazon Sales Dashboard – Power BI Project
-This project presents an insightful Amazon Sales Dashboard developed using Power BI. It includes data transformation, DAX-based KPIs, interactive visualizations, and actionable insights to help monitor and enhance sales performance.
+# 📊 Amazon Sales Intelligence Dashboard using Power BI
 
-# Objectives
-Create a dynamic dashboard to track Amazon sales performance.
+This project is a comprehensive year-wise data visualization analysis of Amazon sales using **Power BI**, covering the period from **2012 to 2015**. It provides detailed insights into sales trends, regional performance, product category analytics, and customer behavior using interactive dashboards. The goal is to derive actionable business intelligence from historical data and showcase expertise in dashboard design.
 
-Clean and preprocess the dataset using Power Query.
+---
 
-Compute key sales KPIs using DAX formulas.
+## 📂 Project Structure
 
-Visualize sales trends across products, regions, and categories.
+```
+Power-Bi_Amazon-Dashboard/
+|
+|├— global_superstore.xlsx          # Supplementary dataset with global sales, profit, region, shipping, etc.
+|├— Sales_year_2012.pbix            # Power BI Dashboard for Amazon sales in 2012
+|├— Sales_year_2013.pbix            # Power BI Dashboard for Amazon sales in 2013
+|├— Sales_year_2014.pbix            # Power BI Dashboard for Amazon sales in 2014
+└— Sales_year_2015.pbix            # Power BI Dashboard for Amazon sales in 2015
+```
 
-Extract business insights to support data-driven decisions.
+Each `.pbix` file is an independent dashboard containing year-specific data visualizations and KPIs.
 
-# Files Included
-Amazon_Sales_Dashboard.pbix – Power BI file with complete dashboard.
+---
 
-global_superstore.xlsx – Original Excel dataset used for analysis.
+## 📌 Objectives
 
-Amazon_Dashboard_Report.docx – Detailed project report with visuals and explanations.
+* Analyze Amazon's historical sales and performance trends (2012-2015).
+* Understand customer behavior across regions, segments, and product categories.
+* Visualize key performance metrics like revenue, profit, quantity sold, and discount impact.
+* Create interactive, filterable dashboards for business stakeholders.
 
-# Tools & Technologies Used
-Power BI
+---
 
-Power Query Editor
+## 💡 Key Features
 
-DAX (Data Analysis Expressions)
+### Year-wise Amazon Dashboards (2012–2015):
 
-Power BI Service (optional for publishing)
+* Total Sales, Quantity Sold, Profit, Discounts
+* Category & Sub-category wise breakdown
+* Regional and country-wise performance
+* Monthly and quarterly trendlines
+* Top customers and products
 
-Excel – Source dataset formatting and review
+### Global Superstore Integration:
 
-# KPIs Computed
-🔸 Total Sales
+* Dataset includes: Country, Region, Segment, Shipping Mode, Order & Ship Dates
+* Used for geo-based analytics and business benchmarking
 
-🔸 Total Profit
+---
 
-🔸 Average Discount
+## 🛠️ Tools & Technologies
 
-🔸 Sales by Region, Category, and Sub-Category
+| Tool/Tech       | Purpose                                |
+| --------------- | -------------------------------------- |
+| Power BI        | Dashboard creation, visuals, and KPIs  |
+| Microsoft Excel | Data cleaning and manipulation         |
+| DAX             | Calculated fields, measures, and logic |
 
-🔸 Top Performing Products
+---
 
-# Visualizations Created
-Bar Chart: Sales by Category and Sub-Category
+## 📈 Sample Visuals (Highlights)
 
-Line Graph: Monthly Sales Trends
+* **Geo Maps**: Regional revenue distribution
+* **Bar/Column Charts**: Category performance comparison
+* **Line Charts**: Monthly sales trends
+* **Donut & Pie Charts**: Segment-wise analysis
+* **Tree Maps**: Hierarchical category insights
+* **Slicers/Filters**: Interactive filtering (category, region, year)
 
-Map: Regional Sales Distribution
+---
 
-Donut Chart: Profit Contribution by Segment
+## 💡 Key Insights
 
-Tree Map: Sales by Product
+* Revenue showed a consistent year-over-year increase from 2012 to 2015.
+* The **Technology** category contributed the highest sales but lower profit margins.
+* **West** and **East** regions consistently outperformed others.
+* Discounts impacted profit margins significantly in 2013.
+* Customer segments like **Corporate** and **Home Office** displayed steady loyalty.
 
-Slicer Filters: Region, Category, Order Date
+---
 
-# Key Insights
-Technology and Office Supplies are the highest-grossing categories.
+## 🧠 Learnings & Contributions
 
-Western and Central regions perform better in overall sales.
+* Mastered Power BI dashboard design, interactivity, and report-level filters
+* Designed reusable layouts for year-wise comparison and drill-downs
+* Applied **data transformation steps in Power Query Editor**
+* Wrote optimized **DAX measures** for KPIs like profit ratio, YoY growth, etc.
+* Ensured **performance optimization** and dashboard responsiveness
 
-High discounts negatively affect profit margins.
+---
 
-A few products contribute disproportionately to total profit.
+## 🌍 Future Enhancements
 
-Sales peak during November and December, indicating strong seasonal demand.
+* Combine all years into a single dynamic dashboard with slicers
+* Include machine learning-based sales forecasting
+* Add real-time data connection using APIs for live dashboards
+* Deploy dashboards to Power BI Service with scheduled refreshes
+* Implement row-level security (RLS) for different user roles
 
+---
 
+## 👤 Author
 
+**Tanveer Singh**
+Final-Year Computer Science Student | Data Enthusiast
+Email: [tsbedi2604@gmail.com](mailto:tsbedi2604@gmail.com)
+GitHub: [github.com/tanveerbedi](https://github.com/tanveerbedi)
+
+---
+
+## 🌟 Summary
+
+This Power BI project demonstrates end-to-end capabilities in dashboarding, data analysis, and storytelling using real business data. It reflects a solid understanding of analytics, design, and insight generation through clean and interactive visual reporting.
