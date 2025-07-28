@@ -100,8 +100,8 @@ Each `.pbix` file is an independent dashboard containing year-specific data visu
 ## 👤 Author
 
 **Tanveer Singh**
-Final-Year Computer Science Student | Data Enthusiast
-[Email](mailto:tsbedi2604@gmail.com)
+Final-Year Computer Science Student | Data Enthusiast |
+[Email](mailto:tsbedi2604@gmail.com) | 
 [GitHub](https://github.com/tanveerbedi)
 
 ---
